@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poopins', sans-serif;
+ 
+}
+
+body {
+  
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+  background: linear-gradient(-45deg, #00c6ff 15%, #3a7bd5 30%, #00d2ff 60%, #3a7bd5 75%, #00d2ff 100%);
+  background-size:  590% 590%;
+  animation: gradient 8s ease infinite;
+  
+ 
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+
+  
+
+
+
+
+
+
+.inputBox {
+  position: relative;
+  width: 280px;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: #0f0c29;
+  border-radius: 10px;
+  outline: none;
+  color: #fffbd5;
+  font-size: 1em;
+  transition: 0.5s;
+}
+
+.inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.25);
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.inputBox input:valid~span,
+.inputBox input:focus~span {
+  color: #00dfc4;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: #1d2b3a;
+  border-left: 1px solid #00dfc4;
+  border-right: 1px solid #00dfc4;
+  letter-spacing: 0.2em;
+}
+
+.inputBox:nth-child(1) input:valid~span,
+.inputBox:nth-child(1) input:focus~span {
+  background: #12D8FA;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus {
+  border: 1px solid;
+}
+
+.out{
+  position: absolute;
+  left: 38%;
+  top: 5%;
+}
+
+.mod{
+  position: absolute;
+  left: 63%;
+  top: 7%;
+}
+
+.profitclean{
+  position: absolute;
+  left: 52%;
+  top: 4.2%;
+  
+}
+
+.view {
+  position: absolute;
+  left: 4%;
+}
+
+.use {
+  position: relative;
+    color: #fff;
+  text-shadow:
+    0 0 5px #4957F1,
+    0 0 10px #081392,
+    0 0 150px #1289FE;
+  font-size: 14px;
+ text-align: center;
+  bottom: 82%;
+}
+
+.shop{
+  
+  position: relative;
+  text-align: center;
+  color: #fff;
+  text-shadow:
+    0 0 5px #4957F1,
+    0 0 10px #081392,
+    0 0 150px #1289FE;
+}
+
+
+h3 {
+  position: relative;
+  text-align: left;
+  font-weight: bold;
+  font-family: Arial;
+    color: #fff;
+  text-shadow:
+    0 0 5px #4957F1,
+    0 0 10px #081392,
+    0 0 100px #52D7FF;
+  
+}
+
