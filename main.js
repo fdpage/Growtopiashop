@@ -1,3 +1,6 @@
+Alert("Tanda (,) Harus di ganti tanda (.) 
+Dan sory kalo belum 100℅ akurat");
+
 const input1 = document.getElementById('input1');
 const input2 = document.getElementById('input2');
 const input3 = document.getElementById('input3');
@@ -133,5 +136,3 @@ hasil11 = angka19;
  
 });
 
-Alert("Tanda (,) Harus di ganti tanda (.) 
-Dan sory kalo belum 100℅ akurat");
