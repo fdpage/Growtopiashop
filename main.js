@@ -132,3 +132,6 @@ hasil11 = angka19;
 
  
 });
+
+Alert("Tanda (,) Harus di ganti tanda (.) 
+Dan sory kalo belum 100℅ akurat");
